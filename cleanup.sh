@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sh /tmp/netdata-kickstart.sh --stable-channel --uninstall
+yes | sh /tmp/netdata-kickstart.sh --stable-channel --uninstall

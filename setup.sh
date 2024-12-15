@@ -1,4 +1,5 @@
 #!/bin/bash
+
 PROJECT_DIR=$(pwd)
 
 wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh
