@@ -9,3 +9,5 @@ cp $PROJECT_DIR/netdata.conf /etc/netdata/netdata.conf
 cp $PROJECT_DIR/custom_alerts.conf /etc/netdata/health.d/custom_alerts.conf
 
 systemctl restart netdata
+
+echo "Netdata installation and configuration complete."
